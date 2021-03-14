@@ -33,9 +33,9 @@ Edit "connecting_db.php":
 # Step 4:
 Enjoy your messaging system.  
   
-* "contact_us.html" is the main page for messaging system.  
+** "contact_us.html" is the main page for messaging system.  
 ** Clicking on the "Go to message control panel" link will lead you to the "message control panel".  
-*** The username ane password for the "message control panel"  is same as the username ane password of your database.  
+** The username ane password for the "message control panel"  is same as the username ane password of your database.  
   
 # Note:
 This code is free for private or commercial use as long as you don't remove or change the copyright notes.<br><br>
