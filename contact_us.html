@@ -1,0 +1,33 @@
+<!--
+This code is free for private or commercial use as long as you don't remove or change the copyright notes.
+Maleki B. Copyright ©2021
+BehzatMaleki@Gmail.com
+Github.com/BehzatMaleki
+-->
+
+<html lang="en">
+    <head>
+		<style>html, body {height:100%}</style>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+		<table style="width:100%;height:100%;">
+		  <tbody>
+			<tr>
+			  <td>
+				<div align='center'>
+					<form id="contact_form" method="post" action="php/process_msg.php">
+						<label>Name:</label><div><input type="text" name="name" required></div><br>
+						<label>Email Address:</label><div><input type="text" name="email"></div><br>
+						<label>Phone Number:</label><div><input type="text" name="phone"></div><br>
+						<label>Message:</label><div><textarea type="text" name="message" rows="10" cols="25" required></textarea></div><br>
+						<div><input type="submit" name="submit_msg">&nbsp;<input type="reset"></div><br>
+					</form>
+					<b><a href='php/control_msg.php'>Go to message control panel</a></b>
+				</div>
+			  </td>
+			</tr>
+		  </tbody>
+		</table>
+    </body>
+</html>
