@@ -1,5 +1,5 @@
 # Simple_Website_Contact_System
-This is a simple contact_us page manager for website. Follow stepes below to make it workes:
+This is a simple contact_us page manager for website. Follow steps below to make it workes:
 
 # Step 1:
 Upload all files to your web server
