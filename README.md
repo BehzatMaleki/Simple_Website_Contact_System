@@ -4,7 +4,6 @@ This is a simple contact_us page manager for website. Follow steps below to make
 # Step 1:
 Upload all files to your web server
 
-
 # Step 2:
 Create this database on your web server:
 
