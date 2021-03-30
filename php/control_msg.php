@@ -65,8 +65,8 @@ Github.com/BehzatMaleki
 							$result = mysqli_query($con, $query);
 							while($rows = mysqli_fetch_array($result)){
 								$msg= $msg."<tr><td>".$rows['Name']."</td><td>".$rows['Email']."</td><td>".$rows['Phone']."</td><td>".$rows['Message']."</td><td><a href='process_msg.php?ACT=dlt&TBL=ms&ID=".$rows['MID']."'>Delete</a></td></tr>";
-								
 							}
+							$msg= $msg."</tbody></table>";
 						}else{
 							//Login form
 							$msg= "<p align='center'>User Name: <input type='text' name='uname'></p><p align='center'>Password: <input type='password' name='pwd'></p><p align='center'><input type='submit' name='entr' value='Enter'></p>";
